@@ -4,7 +4,7 @@
 #include <fd/fondant.hpp>
 
 // Include de GPIO module
-#include <fd/gpio.hpp>
+#include "fd/modules/gpio.hpp"
 
 
 void examples::helloworld::setup() {

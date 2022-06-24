@@ -1,9 +1,9 @@
-#include <fd/fondant_targets.hpp>
+#include "fd/util/fondant_targets.hpp"
 
 #ifdef FONDANT_HW_I2C
 
 #include <fd/targets/stm32_hal/interrupt.hpp>
-#include <fd/functional.hpp>
+#include "fd/util/functional.hpp"
 
 
 namespace fd::stm32_hal {

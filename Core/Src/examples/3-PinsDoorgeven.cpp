@@ -1,6 +1,6 @@
 #include <examples.hpp>
 
-#include "fd/gpio.hpp"
+#include "fd/modules/gpio.hpp"
 
 
 namespace examples::pinsdoorgeven {

@@ -21,7 +21,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include <fd/fondant_main.h>
+#include <fd/fd_main.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/

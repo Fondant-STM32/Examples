@@ -1,4 +1,4 @@
-#include <fd/fondant_main.hpp>
+#include <fd/fd_main.hpp>
 #include <examples.hpp>
 
 int fd_main() {
@@ -16,8 +16,8 @@ int fd_main() {
 //    examples::pinsdoorgeven::run();
 
     // Voorbeeld 4: SPI
-//    examples::spi::setup();
-//    examples::spi::run();
+    examples::spi::setup();
+    examples::spi::run();
 
     // Voorbeeld 5: SPI_DMA
 //    examples::spi_dma::setup();
@@ -45,8 +45,8 @@ int fd_main() {
 //    examples::matrix_keypad::run();
 
     // Voorbeeld 11: Interrupts
-    examples::interrupts::setup();
-    examples::interrupts::run();
+//    examples::interrupts::setup();
+//    examples::interrupts::run();
 
     return 0;
 

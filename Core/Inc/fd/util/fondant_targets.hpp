@@ -16,7 +16,7 @@
 
 #define FONDANT_TARGET FONDANT_TARGET_STM32_HAL
 #define FONDANT_INTERRUPTS
-#include <stm32f1xx_hal.h>
+#include "stm32f1xx_hal.h"
 
 #ifdef HAL_SPI_MODULE_ENABLED
 #define FONDANT_HW_SPI

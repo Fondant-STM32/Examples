@@ -1,14 +1,14 @@
 #include <examples.hpp>
 
 // Include de GPIO module
-#include <fd/gpio.hpp>
+#include "fd/modules/gpio.hpp"
 
 // Include guard. Deze zorgt ervoor dat de onderstaande code niet gecompilet zal worden als de SPI-module niet is ingeschakeld
 // Dit voorkomt compile errors binnen het example project.
 #ifdef FONDANT_HW_SPI
 
 // Include de SPI module. Deze zorgt automatisch dat platformspecifieke onderdelen geladen worden
-#include <fd/spi.hpp>
+#include "fd/modules/spi.hpp"
 
 // Verwijzing naar de automatisch aangemaakte SPI-handle (door CubeIDE)
 extern SPI_HandleTypeDef hspi1;

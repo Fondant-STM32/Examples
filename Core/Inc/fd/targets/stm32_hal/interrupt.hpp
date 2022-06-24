@@ -12,8 +12,8 @@
 
 #include <utility>
 #include <variant>
-#include <fd/functional.hpp>
-#include <fd/fondant_targets.hpp>
+#include "fd/util/functional.hpp"
+#include "fd/util/fondant_targets.hpp"
 
 namespace fd::stm32_hal {
     /**

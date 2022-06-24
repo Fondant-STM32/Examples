@@ -1,4 +1,4 @@
-#include <fd/fondant_targets.hpp>
+#include "fd/util/fondant_targets.hpp"
 #include <cstdio>
 #include <fd/fondant.hpp>
 #include "fd/peripherals/displays/hd44780.hpp"
@@ -6,7 +6,7 @@
 
 #ifdef FONDANT_HW_I2C
 
-#include <fd/i2c.hpp>
+#include "fd/modules/i2c.hpp"
 
 extern I2C_HandleTypeDef hi2c1;
 namespace examples::i2c_bme280_hd44780 {

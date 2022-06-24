@@ -1,8 +1,8 @@
 #include <stm32f1xx_hal.h>
-#include <fd/fondant_targets.hpp>
+#include "fd/util/fondant_targets.hpp"
 
 #ifdef FONDANT_HW_I2C
-#include <fd/i2c.hpp>
+#include "fd/modules/i2c.hpp"
 #include "fd/fondant.hpp"
 
 // Verwijzing naar de door STM32IDE aangemaakte bushandle

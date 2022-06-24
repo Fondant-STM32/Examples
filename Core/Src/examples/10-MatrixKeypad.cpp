@@ -3,11 +3,11 @@
 #include "fd/peripherals/displays/hd44780.hpp"
 #include "fd/peripherals/input/keypad_matrix_4x4.hpp"
 
-#include <fd/gpio.hpp>
+#include "fd/modules/gpio.hpp"
 
 #ifdef FONDANT_HW_I2C
 
-#include <fd/i2c.hpp>
+#include "fd/modules/i2c.hpp"
 
 extern I2C_HandleTypeDef hi2c1;
 namespace examples::matrix_keypad {

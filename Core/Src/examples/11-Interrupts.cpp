@@ -1,5 +1,5 @@
-#include <fd/interrupt.hpp>
-#include <fd/gpio.hpp>
+#include "fd/modules/interrupt.hpp"
+#include "fd/modules/gpio.hpp"
 
 #ifdef FONDANT_INTERRUPTS
 

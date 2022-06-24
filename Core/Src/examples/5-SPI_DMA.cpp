@@ -1,12 +1,12 @@
 #include <examples.hpp>
 
-#include <fd/gpio.hpp>
+#include "fd/modules/gpio.hpp"
 
-#include <fd/fondant_targets.hpp>
+#include "fd/util/fondant_targets.hpp"
 
 #ifdef FONDANT_HW_SPI
 
-#include <fd/spi.hpp>
+#include "fd/modules/spi.hpp"
 
 extern SPI_HandleTypeDef hspi1;
 

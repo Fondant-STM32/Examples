@@ -1,7 +1,7 @@
 #include <examples.hpp>
 
 // Include de GPIO module
-#include "fd/gpio.hpp"
+#include "fd/modules/gpio.hpp"
 
 
 namespace examples::pininpinout {
