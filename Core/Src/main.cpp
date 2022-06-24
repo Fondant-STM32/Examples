@@ -4,8 +4,8 @@
 int fd_main() {
 
     // Voorbeeld 1: Hello World (blink)
-    examples::helloworld::setup();
-    examples::helloworld::run();
+//    examples::helloworld::setup();
+//    examples::helloworld::run();
 
     // Voorbeeld 2: Pin In Pin Out
 //    examples::pininpinout::setup();
